@@ -14,7 +14,7 @@ mongoose.connect(process.env.DB_URL,{ useNewUrlParser: true },(err)=>{
     if (err) {
         console.log(`Mcod:.......................v1.0 ${err}`);
     } else {
-        console.log(`mlab DB is runing.......`);
+        console.log(`mlab DB is ruining.......`);
     }
 })
 
@@ -46,5 +46,5 @@ if (process.env.NODE_ENV === 'production') {
 
 
 app.listen(process.env.PORT ,()=>{
-    console.log('node.js server is runing........');
+    console.log('node.js server is ruining........');
 })
